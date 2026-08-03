@@ -10,13 +10,13 @@ SDK Java que consume la API REST publicada por ePagos.
 ## Instalacion local
 
 ```powershell
-mvn -f java-sdk/pom.xml clean package
+mvn -f pom.xml clean package
 ```
 
 Para usarlo desde otro proyecto Maven local:
 
 ```powershell
-mvn -f java-sdk/pom.xml install
+mvn -f pom.xml install
 ```
 
 ```xml
@@ -103,15 +103,15 @@ Variables usadas:
 Ejecutar:
 
 ```powershell
-mvn -f java-sdk/pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.ObtenerTokenExample
-mvn -f java-sdk/pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.ObtenerPagosExample
-mvn -f java-sdk/pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.ObtenerContracargosExample
-mvn -f java-sdk/pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.ObtenerPagosAdicionalesExample
-mvn -f java-sdk/pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.ObtenerRendicionesExample
-mvn -f java-sdk/pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.SolicitudPagoExample
-mvn -f java-sdk/pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.SolicitudPagoLoteExample
-mvn -f java-sdk/pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.PagoLoteExample
-mvn -f java-sdk/pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.ObtenerEntidadesPagoExample
-mvn -f java-sdk/pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.GenerarOrdenQrExample
-mvn -f java-sdk/pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.ObtenerCajasQrExample
+mvn -f pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.ObtenerTokenExample
+mvn -f pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.ObtenerPagosExample
+mvn -f pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.ObtenerContracargosExample
+mvn -f pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.ObtenerPagosAdicionalesExample
+mvn -f pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.ObtenerRendicionesExample
+mvn -f pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.SolicitudPagoExample
+mvn -f pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.SolicitudPagoLoteExample
+mvn -f pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.PagoLoteExample
+mvn -f pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.ObtenerEntidadesPagoExample
+mvn -f pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.GenerarOrdenQrExample
+mvn -f pom.xml exec:java -Dexec.mainClass=com.epagos.sdk.examples.ObtenerCajasQrExample
 ```
